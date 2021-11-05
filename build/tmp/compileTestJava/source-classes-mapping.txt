@@ -1,0 +1,2 @@
+guru/qa/SoftAssertionTest.java
+ guru.qa.SoftAssertionTest
