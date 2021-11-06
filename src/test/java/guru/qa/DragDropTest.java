@@ -16,7 +16,7 @@ public class DragDropTest {
     @Test
     void softAssertionPageIsPresent() {
         open("https://the-internet.herokuapp.com/drag_and_drop");
-//        actions().moveToElement($("#column-a")).clickAndHold().moveToElement($("#column-b")).release().perform();
+//        actions().moveToElement($("#column-a")).clickAndHold().moveToElement($("#column-b")).release().perform();  //метод не работает
         $("#column-a").dragAndDropTo($("#column-b"));
 
         $("#column-a header").shouldHave(text("B"));
